@@ -10,6 +10,34 @@ body {
     background-color: ##f0f0f0;
 }
 
+/*This styles the header*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/*This controls the placement and font size of the 'Horiseon' title*/
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/*This controls the color of 'seo' in the title*/
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/*This section controls the header navigation links*/
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
 /* Add a black background color to the top navigation */
 .nav {
   background-color: #333;
