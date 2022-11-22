@@ -3,38 +3,147 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/style.css">
     <title>ICQA</title>
   </head>
   
 <body>
-  <!--This is the header bar and navigation links-->
-    <header class="header">
-      <button type="button" class="button">
-        <!--Need to add icon code here and code to open menu on side-->
-      </button>
-      <h1>Apollo <span class="Warehouse">Warehouse</span><h1>
-      <nav>
-        <ul>
-          <li><a href="/">Search</li>
-          <li><a href="/">Quality</li>
-          <li><a href="/">Productivity</li>
-          <li><a href="/">Inbound</li>
-          <li><a href="/">Outbound</li>
-          <li><a href="/">Inventory</li>
-          <li><a href="/">Locations</li>
-          <li><a href="/">Yard</li>
-        </ul>
-        <ul>
-          <li>3865 - Chicago Pulaski</li>
-        </ul>
-      </nav>
-  </header>
-        
-<!-- This is the main body section-->
- <main class="apollo-body">
-   
- </main>
+<!--Nav bar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <a class="navbar-brand" href="#">
+      <img src="/assets/images/apollo.PNG" width="30" height="30" class="d-inline-block align-top" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Search</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Quality <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Productivity <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Inbound <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Outbound <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Inventory <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Locations <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Yard <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">ICQA <span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+    </div>
+
+        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                3865 - Chicago IL FC
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+  </nav>
+<!-- End of nav bar-->
+
+<!--Search bar-->
+<div id="searchContainer">
+  <div id="searchBar" class="input-group mb-3">
+    <div class="input-group-prepend-">
+      <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Types</button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+        <div role="separator" class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Separated link</a>
+      </div>
+    </div>
+    <input type="text" class="form-control" aria-label="Text input with dropdown button">
+    <div class="input-group-append">
+      <button class="btn btn-outline-secondary" type="button">Search</button>
+    </div>
+  </div>
+</div>
+
+<main>
+  <!--Bin title-->
+  <div id="binTitle">
+  <p id="bin">210-089-A01</p>
+  <p id="timestamp">Data Refreshed Nov 21, 5:00 PM</p>
+  </div>
+  <!--Bin info box-->
+  <div id="binInfo" >
+      <p>Title</p>
+  </div>
+<!--Activity search buttons-->
+  <div id="searchButtons" class="d-flex justify-content-center">
+    <button class="btn btn-outline-secondary" type="button">Contents</button>
+    <button class="btn btn-outline-secondary" type="button">Activity</button>
+  </div>
+
+  <div id="palletInfo" >
+    <p>1<br>Pallet</p>
+  </div>
+<!--Start test
+link: https://getbootstrap.com/docs/4.0/components/forms/-->
+  <div>
+    <div class="form-row-12">
+      <div class="form-row col-md-2">
+        <label for="inputState">State</label>
+        <select id="inputState" class="form-control">
+          <option selected>Choose...</option>
+          <option>...</option>
+        </select>
+        <label for="inputState">State</label>
+        <select id="inputState" class="form-control">
+          <option selected>Choose...</option>
+          <option>...</option>
+        </select>
+      </div>
+      <div class="form-group col-md-2">
+        <label for="inputZip">Zip</label>
+        <input type="text" class="form-control" id="inputZip">
+      </div>
+    </div>
+    <div class="form-group">
+    
+    </div>
+    <a href="#" class="customBtn">Filter</a>
+  </div>
+
+  <!--End Test-->
+<!--
+  <div id="binSearch" >
+    <p>1<br>Pallet</p>
+  </div>
+
+  <div id="pallet" >
+    <p>1<br>Pallet</p>
+  </div>
+-->
+</main>
         
 </body>
 </html> 
