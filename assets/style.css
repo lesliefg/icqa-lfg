@@ -16,6 +16,13 @@ body{
   flex-direction: column;
 }
 
+#warning{
+  width: 100%;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 20px;
+  padding: 10px;
+}
 
 .main-nav{
   z-index: 100;
