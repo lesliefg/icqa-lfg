@@ -89,6 +89,14 @@
           <!-- <a href="../equipment/equipment.html" id="equipment" class="navbar-item has-text-black is-size-5 has-text-weight-medium">Equipment Log</a> -->
           <a href="javascript:window.location.reload(true)" id="equipment" class="navbar-item has-text-black is-size-5 has-text-weight-medium current-tab">Team Metrics</a>
         </div>
+
+        <div class="navbar-end">
+            <a href="#" id="U1" class="navbar-item has-text-black is-size-5 has-text-weight-medium current-tab">U1</a>    
+            <a href="#" id="U2" class="navbar-item has-text-black is-size-5 has-text-weight-medium">U2</a>
+            <a href="#" id="W1" class="navbar-item has-text-black is-size-5 has-text-weight-medium">W1</a>
+            <a href="#" id="W2" class="navbar-item has-text-black is-size-5 has-text-weight-medium">W2</a>
+            <a href="#" id="allShifts" class="navbar-item has-text-black is-size-5 has-text-weight-medium">All Shifts</a>
+          </div>
       </div>
     </nav>
 
@@ -99,7 +107,7 @@
     <div class="columns is-full is-centered">
         <div class="table-container">
             <table class="table">
-                <table class="table is-bordered">
+                <table class="table is-bordered u1Info" style="display: block">
                     <thead>
                     <tr>
                         <th><abbr title="shift">Shift</abbr></th>
@@ -116,6 +124,7 @@
                         <th>Certified Equipment</th>
                     </tr>
                     </thead>
+        <!-- Shift U1 information -->
                     <tbody>
                     <tr>
                         <th class="row">U1</th>
@@ -287,7 +296,7 @@
                     </tr>
                     <tr>
                         <th class="row">U1</th>
-                        <td>Brian P M</td>
+                        <td>Brian P</td>
                         <td>Trained</td>
                         <td>Trained</td>
                         <td>Trained</td>
@@ -372,6 +381,799 @@
                     </tbody>
                 </table>
             </table>
+
+            <!-- Shift U2 information -->
+            <table class="table is-bordered u2Info" style="display: none">
+                <thead>
+                <tr>
+                    <th><abbr title="shift">Shift</abbr></th>
+                    <th>TM</th>
+                    <th><abbr title="inbound">ICM/PKV</abbr></th>
+                    <th><abbr title="audits">Holds</abbr></th>
+                    <th><abbr title="Drawn">Randoms</abbr></th>
+                    <th><abbr title="Lost">VCP/SSP</abbr></th>
+                    <th><abbr title="Goals for">Crossdock</abbr></th>
+                    <th><abbr title="Goals against">Bulk</br>RC Certified</abbr></th>
+                    <th><abbr title="Goal difference">Exceptions</abbr></th>
+                    <th><abbr title="Points">RTI Defender</abbr></th>
+                    <th><abbr title="Points">Damage Cage</abbr></th>
+                    <th>Certified Equipment</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="row">U2</th>
+                        <td>Jessica Aguirre</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained<br>Not Certified</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>OP</td>
+                    </tr>
+                    <tr>
+                        <th class="row">U2</th>
+                        <td>Jose Bahenaocampo</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained<br>Not certified</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>OP</td>
+                    </tr>
+                    <tr>
+                        <th class="row">U2</th>
+                        <td>Carlos Govea</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained<br>Not certified</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>OP</td>
+                    </tr>
+                    <tr>
+                        <th class="row">U2</th>
+                        <td>Rickey Carter</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained<br>Not certified</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>OP</td>
+                    </tr>
+                    <tr>
+                        <th class="row">U2</th>
+                        <td>Gene Cortez</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained<br>Not certified</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>OP</td>
+                    </tr>
+                    <tr>
+                        <th class="row">U2</th>
+                        <td>Christine Delgado</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained<br>Certified</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>OP | RC</td>
+                    </tr>
+                    <tr>
+                        <th class="row">U2</th>
+                        <td>Eduardo Diaz</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained<br>Not certified</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>OP</td>
+                    </tr>
+                    <tr>
+                        <th class="row">U2</th>
+                        <td>Dolores Hernandez</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained<br>Not certified</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>OP</td>
+                    </tr>
+                    <tr>
+                        <th class="row">U2</th>
+                        <td>Yesenia Estrada</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained<br>Not certified</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>OP</td>
+                    </tr>
+                    <tr>
+                        <th class="row">U2</th>
+                        <td>Griselda Andrade</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained<br>Not certified</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>OP</td>
+                    </tr>
+                    <tr>
+                        <th class="row">U2</th>
+                        <td>Viviana Gutierrez</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained<br>Not certified</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>OP</td>
+                    </tr>
+                    <tr>
+                        <th class="row">U2</th>
+                        <td>Ismael Hernandez</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained<br>Not certified</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>OP</td>
+                    </tr>
+                    <tr>
+                        <th class="row">U2</th>
+                        <td>Marco Herrera</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained<br>Not certified</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>OP</td>
+                    </tr>
+                    <tr>
+                        <th class="row">U2</th>
+                        <td>Erik Martinez</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained<br>Not certified</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>OP</td>
+                    </tr>
+                    <tr>
+                        <th class="row">U2</th>
+                        <td>Pablo Perez</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained<br>Not certified</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>Trained</td>
+                        <td>OP</td>
+                    </tr>
+                </tbody>
+            </table>
+        <!-- Shift W1 information -->
+            <table class="table is-bordered w1Info" style="display: none">
+                <thead>
+                <tr>
+                    <th><abbr title="shift">Shift</abbr></th>
+                    <th>TM</th>
+                    <th><abbr title="inbound">ICM/PKV</abbr></th>
+                    <th><abbr title="audits">Holds</abbr></th>
+                    <th><abbr title="Drawn">Randoms</abbr></th>
+                    <th><abbr title="Lost">VCP/SSP</abbr></th>
+                    <th><abbr title="Goals for">Crossdock</abbr></th>
+                    <th><abbr title="Goals against">Bulk</br>RC Certified</abbr></th>
+                    <th><abbr title="Goal difference">Exceptions</abbr></th>
+                    <th><abbr title="Points">RTI Defender</abbr></th>
+                    <th><abbr title="Points">Damage Cage</abbr></th>
+                    <th>Certified Equipment</th>
+                </tr>
+                </thead>
+                    <tbody>
+                        <tr>
+                            <th class="row">W1</th>
+                            <td>Isaac Stroud</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained<br>Not Certified</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>OP</td>
+                        </tr>
+                        <tr>
+                            <th class="row">W1</th>
+                            <td>Malinka Richardson</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained<br>Not certified</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>OP</td>
+                        </tr>
+                        <tr>
+                            <th class="row">W1</th>
+                            <td>Thalia Sanchez</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained<br>Not Certified</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>OP</td>
+                        </tr>
+                        <tr>
+                            <th class="row">W1</th>
+                            <td>Sarah Watkins V</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained<br>Not Certified</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>OP</td>
+                        </tr>
+                        <tr>
+                            <th class="row">W1</th>
+                            <td>Anthony Guillen</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained<br>Not Certified</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>OP</td>
+                        </tr>
+                        <tr>
+                            <th class="row">W1</th>
+                            <td>Kevin Martin</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained<br>Not Certified</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>OP</td>
+                        </tr>
+                        <tr>
+                            <th class="row">W1</th>
+                            <td>Loren Wilson</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained<br>Not Certified</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>OP</td>
+                        </tr>
+                        <tr>
+                            <th class="row">W1</th>
+                            <td>Susana Osorio</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained<br>Not Certified</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>OP</td>
+                        </tr>
+                        <tr>
+                            <th class="row">W1</th>
+                            <td>David Smith</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained<br>Not Certified</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>OP</td>
+                        </tr>
+                        <tr>
+                            <th class="row">W1</th>
+                            <td>Stephanie Ortiz</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained<br>Not Certified</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>OP</td>
+                        </tr>
+                        <tr>
+                            <th class="row">W1</th>
+                            <td>Crashanda Dixon</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained<br>Not Certified</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>OP</td>
+                        </tr>
+                        <tr>
+                            <th class="row">W1</th>
+                            <td>Cesar Salceda</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained<br>Not Certified</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>OP</td>
+                        </tr>
+                        <tr>
+                            <th class="row">W1</th>
+                            <td>Victoria Safforld</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained<br>Not Certified</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>OP</td>
+                        </tr>
+                        <tr>
+                            <th class="row">W1</th>
+                            <td>Tiana Holland</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained<br>Not Certified</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>OP</td>
+                        </tr>
+                        <tr>
+                            <th class="row">W1</th>
+                            <td>Allison Flores</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained<br>Not Certified</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>OP</td>
+                        </tr>
+                        <tr>
+                            <th class="row">W1</th>
+                            <td>Mayra Arciga</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained<br>Not Certified</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>OP</td>
+                        </tr>
+                        <tr>
+                            <th class="row">W1</th>
+                            <td>Edward Nunez</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained<br>Not Certified</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>OP</td>
+                        </tr>
+                        <tr>
+                            <th class="row">W1</th>
+                            <td>Steven Romero</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained<br>Not Certified</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>OP</td>
+                        </tr>
+                        <tr>
+                            <th class="row">W1</th>
+                            <td>Damien Johnson</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained<br>Not Certified</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>OP</td>
+                        </tr>
+                </tbody>
+            </table>
+        <!-- Shift W2 information -->
+            <table class="table is-bordered w2Info" style="display: none">
+                <thead>
+                    <tr>
+                        <th><abbr title="shift">Shift</abbr></th>
+                        <th>TM</th>
+                        <th><abbr title="inbound">ICM/PKV</abbr></th>
+                        <th><abbr title="audits">Holds</abbr></th>
+                        <th><abbr title="Drawn">Randoms</abbr></th>
+                        <th><abbr title="Lost">VCP/SSP</abbr></th>
+                        <th><abbr title="Goals for">Crossdock</abbr></th>
+                        <th><abbr title="Goals against">Bulk</br>RC Certified</abbr></th>
+                        <th><abbr title="Goal difference">Exceptions</abbr></th>
+                        <th><abbr title="Points">RTI Defender</abbr></th>
+                        <th><abbr title="Points">Damage Cage</abbr></th>
+                        <th>Certified Equipment</th>
+                    </tr>
+                </thead>
+                    <tbody>
+                        <tr>
+                            <th class="row">W2</th>
+                            <td>Michael Estrada</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained<br>Not Certified</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>OP</td>
+                        </tr>
+                        <tr>
+                            <th class="row">W2</th>
+                            <td>Christopher Miguel</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained<br>Not certified</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>OP</td>
+                        </tr>
+                        <tr>
+                            <th class="row">W2</th>
+                            <td>Dartagnan Norrisgiles</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained<br>Not Certified</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>OP</td>
+                        </tr>
+                        <tr>
+                            <th class="row">W2</th>
+                            <td>Joshua Nunez</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained<br>Not Certified</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>OP</td>
+                        </tr>
+                        <tr>
+                            <th class="row">W2</th>
+                            <td>Eugene Young</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained<br>Not Certified</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>OP</td>
+                        </tr>
+                        <tr>
+                            <th class="row">W2</th>
+                            <td>Leonardo Soto</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained<br>Not Certified</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>OP</td>
+                        </tr>
+                        <tr>
+                            <th class="row">W2</th>
+                            <td>Nidia Luna</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained<br>Not Certified</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>OP</td>
+                        </tr>
+                        <tr>
+                            <th class="row">W2</th>
+                            <td>Roxann Zarco</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained<br>Not Certified</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>OP</td>
+                        </tr>
+                        <tr>
+                            <th class="row">W2</th>
+                            <td>Jose Flores</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained<br>Not Certified</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>OP</td>
+                        </tr>
+                        <tr>
+                            <th class="row">W2</th>
+                            <td>Joann Martinez</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained<br>Not Certified</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>OP</td>
+                        </tr>
+                        <tr>
+                            <th class="row">W2</th>
+                            <td>Alexis Ramirez</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained<br>Not Certified</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>OP</td>
+                        </tr>
+                        <tr>
+                            <th class="row">W2</th>
+                            <td>Denis Zuniga</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained<br>Not Certified</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>OP</td>
+                        </tr>
+                        <tr>
+                            <th class="row">W2</th>
+                            <td>Sergio Garcia</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained<br>Not Certified</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>OP</td>
+                        </tr>
+                        <tr>
+                            <th class="row">W2</th>
+                            <td>Trina Kingrobinson</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained<br>Not Certified</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>OP</td>
+                        </tr>
+                        <tr>
+                            <th class="row">W2</th>
+                            <td>Jonathan Martinez</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained<br>Not Certified</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>OP</td>
+                        </tr>
+                        <tr>
+                            <th class="row">W2</th>
+                            <td>Dawn Davis</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained<br>Not Certified</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>OP</td>
+                        </tr>
+                        <tr>
+                            <th class="row">W2</th>
+                            <td>Dreylon Jones</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained<br>Not Certified</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>OP</td>
+                        </tr>
+                        <tr>
+                            <th class="row">W2</th>
+                            <td>Mayra Alcantar</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained<br>Not Certified</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>Trained</td>
+                            <td>OP</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </table>
         </div>
     </div>
 
@@ -397,5 +1199,6 @@ integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
 crossorigin="anonymous"></script>
 <!-- notification script -->
 <script src="../../javascript/notifs.js"></script>
+<script src="../../javascript/metrics.js"></script>
 </body>
 </html>
